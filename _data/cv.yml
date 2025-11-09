@@ -39,36 +39,36 @@
       institution: George Washington University, Washington, D.C.
       year: April 2024 - Present
       description:
-        - "Open Source: Built an open-source NLP package for skills and workforce analytics; co-authored paper submitted to the Journal of Open Source Software (JOSS)."
-        - "Data Engineering: Designed scalable pipelines for skill extraction from 1M+ job descriptions; achieved 7x throughput using vLLM on HPC clusters."
-        - "Data Visualization: Built Neo4j and Plotly 3D maps to show skill gaps across 1,000+ university courses for the Texas Workforce Commission; work informed two local training policies."
-        - "Project Management: Ran weekly SCRUM; delivered 5 milestones on or ahead of schedule using GitHub Actions and issue tracking."
-        - "Dev Environment: Standardized the analytics environment on AWS and authored shared Python libraries for the team."
-        - "Data Ethics: Authored data-ethics guidelines; eliminated 100% of PII from public datasets."
+        - "**Open Source**: Built an open-source NLP package for skills and workforce analytics; co-authored paper submitted to the Journal of Open Source Software (JOSS)."
+        - "**Data Engineering**: Designed scalable pipelines for skill extraction from 1M+ job descriptions; achieved 7x throughput using vLLM on HPC clusters."
+        - "**Data Visualization**: Built Neo4j and Plotly 3D maps to show skill gaps across 1,000+ university courses for the Texas Workforce Commission; work informed two local training policies."
+        - "**Project Management**: Ran weekly SCRUM; delivered 5 milestones on or ahead of schedule using GitHub Actions and issue tracking."
+        - "**Dev Environment**: Standardized the analytics environment on AWS and authored shared Python libraries for the team."
+        - "**Data Ethics**: Authored data-ethics guidelines; eliminated 100% of PII from public datasets."
     
     - title: Graduate Assistant, Natural Language Processing Class
       institution: George Washington University, Washington, D.C.
       year: Aug 2024 - Present
       description:
-        - "Automation: Built a Python autograding toolkit; cut grading turnaround from 3 days to 2 hours across 10 assignments (~5 minutes per submission), saving ~100 TA hours and reducing regrade requests to 0."
-        - "Cloud Runtime: Standardized the environment on AWS EC2 with a CUDA/PyTorch AMI; configured S3 for artifacts, IAM for access, and CloudWatch for monitoring."
-        - "Course Dashboards: Built instructor dashboards and learner survey tools to track assignment and activity patterns."
-        - "Tech: Python, pandas, NumPy, scikit-learn, NLTK, Hugging Face, Matplotlib, OpenPyXL, AWS (EC2, S3, IAM, CloudWatch), CUDA, PyTorch, Blackboard."
+        - "**Automation**: Built a Python autograding toolkit; cut grading turnaround from 3 days to 2 hours across 10 assignments (~5 minutes per submission), saving ~100 TA hours and reducing regrade requests to 0."
+        - "**Cloud Runtime**: Standardized the environment on AWS EC2 with a CUDA/PyTorch AMI; configured S3 for artifacts, IAM for access, and CloudWatch for monitoring."
+        - "**Course Dashboards**: Built instructor dashboards and learner survey tools to track assignment and activity patterns."
+        - "**Tech**: Python, pandas, NumPy, scikit-learn, NLTK, Hugging Face, Matplotlib, OpenPyXL, AWS (EC2, S3, IAM, CloudWatch), CUDA, PyTorch, Blackboard."
 
     - title: Data Science Intern, Data Science for Sustainable Development
       institution: George Washington University, Washington, D.C.
       year: Aug 2024 - Dec 2024
       description:
-        - "Full-Stack Engineering: Led a team of 5 to design and deploy an open-access repository of 200+ non-profits (Next.js, Flask, Supabase on AWS EC2/S3)."
-        - "Data Analysis: Designed Figma wireframes and embedded n8n AI agents for admin insights across 50+ projects; increased partner collaboration by 30%."
+        - "**Full-Stack Engineering**: Led a team of 5 to design and deploy an open-access repository of 200+ non-profits (Next.js, Flask, Supabase on AWS EC2/S3)."
+        - "**Data Analysis**: Designed Figma wireframes and embedded n8n AI agents for admin insights across 50+ projects; increased partner collaboration by 30%."
 
     - title: Full-Stack Engineer
       institution: NashAgri, An Agritech B2C Organization, Maharashtra, India
       year: July 2021 – Jan 2023
       description:
-        - "Product: Built a cross-platform CRM from scratch; added ML analytics to improve operational efficiency."
-        - "Geospatial: Managed geospatial data for 45,000+ farmers across 25,000+ regions (MongoDB, GeoJSON); generated insights for partnerships."
-        - "Backend: Engineered 5+ core features (invoice generation, RBAC, real-time auctions) supporting a 40% increase in vendor transactions in the first quarter."
+        - "**Product**: Built a cross-platform CRM from scratch; added ML analytics to improve operational efficiency."
+        - "**Geospatial**: Managed geospatial data for 45,000+ farmers across 25,000+ regions (MongoDB, GeoJSON); generated insights for partnerships."
+        - "**Backend**: Engineered 5+ core features (invoice generation, RBAC, real-time auctions) supporting a 40% increase in vendor transactions in the first quarter."
 
 - title: Projects
   type: time_table
@@ -77,25 +77,25 @@
       year: 2024
       description:
         - Model agnostic, custom RL environment for data annotation to outperform state-of-the-art semi-supervised techniques and enable reproducible evaluation.
-        - "Tools: OpenAI Gymnasium, High Performance Compute (HPC), Tensorboard, PyTorch (torchvision)"
+        - "**Tools**: *OpenAI Gymnasium, High Performance Compute (HPC), Tensorboard, PyTorch (torchvision)*"
 
     - title: Benchmarking Database Architectures for Network Analytics
       year: 2024
       description:
         - Reproducible Python benchmark of MySQL, MongoDB, and Neo4j on a synthetic road network dataset to deliver recommendations on which database performs best for each query type.
-        - "Tools: Python, MySQL, MongoDB, Neo4j (graph algorithms), SQL recursive CTEs, MongoDB aggregation/lookup, psutil (performance monitoring), Faker"
+        - "**Tools**: *Python, MySQL, MongoDB, Neo4j (graph algorithms), SQL recursive CTEs, MongoDB aggregation/lookup, psutil (performance monitoring), Faker*"
 
     - title: Global CO₂ Emissions Analysis Dashboard
       year: 2024
       description:
         - Built a dashboard analyzing 223 years of CO₂ data across countries, sectors, and income groups to identify relation between historical emissions and renewable adoption priorities.
-        - "Tools: Tableau, Python, pandas, Plotly, Matplotlib"
+        - "**Tools**: *Tableau, Python, pandas, Plotly, Matplotlib*"
 
     - title: My Own Medic
       year: 2023
       description:
         - End-to-end open-source AI architecture for a medical assistant leveraging EHR records and LLMs to prevent medical errors; Project selected for presentation at UN Open-Source Week 2025, New York.
-        - "Tools: MySQL, PHP, Hugging Face API, Data Compliance (HIPAA)"
+        - "**Tools**: *MySQL, PHP, Hugging Face API, Data Compliance (HIPAA)*"
 
 - title: Leadership & Developer Relations
   type: time_table
