@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "phanindra-max/fortpolio",
+    "data-repo": "phanindra-max/phanindra-max.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
