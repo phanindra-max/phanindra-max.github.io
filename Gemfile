@@ -2,9 +2,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
-# Constrain activesupport to version compatible with Ruby 3.1.6
-gem 'activesupport', '~> 7.2.0'
-
 # Core plugins that directly affect site building
 group :jekyll_plugins do
     gem 'jekyll-archives-v2'
