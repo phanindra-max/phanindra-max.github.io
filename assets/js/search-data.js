@@ -7,28 +7,28 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/fortpolio/";
+      window.location.href = "/";
     },
   },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/fortpolio/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/fortpolio/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "Data scientist skilled in end-to-end problem-solving, from framing challenges to production deployment. Proficient in building robust data pipelines and training machine learning models with a focus on NLP and LLMs.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/fortpolio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2025/plotly/";
+            window.location.href = "/blog/2025/plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -49,7 +49,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2024/photo-gallery/";
           
         },
       },{id: "post-a-post-with-tabs",
@@ -60,7 +60,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/tabs/";
+            window.location.href = "/blog/2024/tabs/";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -71,7 +71,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/typograms/";
+            window.location.href = "/blog/2024/typograms/";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -82,7 +82,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/pseudocode/";
+            window.location.href = "/blog/2024/pseudocode/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -93,7 +93,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/code-diff/";
+            window.location.href = "/blog/2024/code-diff/";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -104,7 +104,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/advanced-images/";
+            window.location.href = "/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -115,7 +115,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/vega-lite/";
+            window.location.href = "/blog/2024/vega-lite/";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -126,7 +126,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/geojson-map/";
+            window.location.href = "/blog/2024/geojson-map/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -137,7 +137,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/echarts/";
+            window.location.href = "/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -148,7 +148,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2024/chartjs/";
+            window.location.href = "/blog/2024/chartjs/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -159,7 +159,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2023/tikzjax/";
+            window.location.href = "/blog/2023/tikzjax/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -170,7 +170,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2023/jupyter-notebook/";
+            window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -181,7 +181,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2023/custom-blockquotes/";
+            window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -192,7 +192,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2023/sidebar-table-of-contents/";
+            window.location.href = "/blog/2023/sidebar-table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -203,7 +203,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2023/audios/";
+            window.location.href = "/blog/2023/audios/";
           
         },
       },{id: "post-a-post-with-videos",
@@ -214,7 +214,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2023/videos/";
+            window.location.href = "/blog/2023/videos/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -225,7 +225,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2023/tables/";
+            window.location.href = "/blog/2023/tables/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -236,7 +236,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2023/table-of-contents/";
+            window.location.href = "/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
@@ -247,7 +247,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2022/giscus-comments/";
+            window.location.href = "/blog/2022/giscus-comments/";
           
         },
       },{id: "post-a-post-with-redirect",
@@ -258,7 +258,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/assets/pdf/example_pdf.pdf";
+            window.location.href = "/assets/pdf/example_pdf.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
@@ -269,7 +269,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2021/diagrams/";
+            window.location.href = "/blog/2021/diagrams/";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -280,7 +280,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2020/twitter/";
+            window.location.href = "/blog/2020/twitter/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -291,7 +291,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2015/disqus-comments/";
+            window.location.href = "/blog/2015/disqus-comments/";
           
         },
       },{id: "post-a-post-with-math",
@@ -302,7 +302,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2015/math/";
+            window.location.href = "/blog/2015/math/";
           
         },
       },{id: "post-a-post-with-code",
@@ -313,7 +313,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2015/code/";
+            window.location.href = "/blog/2015/code/";
           
         },
       },{id: "post-a-post-with-images",
@@ -324,7 +324,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2015/images/";
+            window.location.href = "/blog/2015/images/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -335,34 +335,34 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/fortpolio/blog/2015/formatting-and-links/";
+            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/fortpolio/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "projects-benchmarking-database-architectures-for-network-analytics",
           title: 'Benchmarking Database Architectures for Network Analytics',
           description: "Comprehensive performance analysis of MySQL, MongoDB, and Neo4j for graph operations",
           section: "Projects",handler: () => {
-              window.location.href = "/fortpolio/projects/Benchmarking-Database-Architectures-for-Network-Analytics/";
+              window.location.href = "/projects/Benchmarking-Database-Architectures-for-Network-Analytics/";
             },},{id: "projects-global-co-emissions-analysis-dashboard",
           title: 'Global CO₂ Emissions Analysis Dashboard',
           description: "Interactive platform analyzing 223 years of climate data to identify emission drivers and solutions",
           section: "Projects",handler: () => {
-              window.location.href = "/fortpolio/projects/Global-CO2-Emissions-Analysis-Dashboard/";
+              window.location.href = "/projects/Global-CO2-Emissions-Analysis-Dashboard/";
             },},{id: "projects-my-own-medic-m-o-m",
           title: 'My Own Medic (M.O.M)',
           description: "AI-powered medical assistant for accessible health guidance using LLMs",
           section: "Projects",handler: () => {
-              window.location.href = "/fortpolio/projects/My-Own-Medic/";
+              window.location.href = "/projects/My-Own-Medic/";
             },},{id: "projects-reinforcement-learning-for-pseudo-labeling",
           title: 'Reinforcement Learning for Pseudo-Labeling',
           description: "Model-agnostic RL framework for intelligent pseudo-label selection in semi-supervised learning",
           section: "Projects",handler: () => {
-              window.location.href = "/fortpolio/projects/Reinforcement-Learning-for-Pseudo-Labeling/";
+              window.location.href = "/projects/Reinforcement-Learning-for-Pseudo-Labeling/";
             },},{
         id: 'social-email',
         title: 'email',
