@@ -363,6 +363,11 @@ ninja.data = [{
           description: "Model-agnostic RL framework for intelligent pseudo-label selection in semi-supervised learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Reinforcement-Learning-for-Pseudo-Labeling/";
+            },},{id: "projects-visualizer-max",
+          title: 'Visualizer-Max',
+          description: "An interactive data visualization repository demonstrating advanced methods for representing complex data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/visualizer-max/";
             },},{
         id: 'social-email',
         title: 'email',
