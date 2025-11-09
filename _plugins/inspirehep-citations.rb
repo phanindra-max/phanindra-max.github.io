@@ -3,9 +3,9 @@ require 'net/http'
 require 'json'
 require 'uri'
 
-module Helpers
-  extend ActiveSupport::NumberHelper
-end
+# module Helpers
+#   extend ActiveSupport::NumberHelper
+# end
 
 module Jekyll
   class InspireHEPCitationsTag < Liquid::Tag

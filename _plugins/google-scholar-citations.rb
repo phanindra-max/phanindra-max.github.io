@@ -2,9 +2,9 @@ require "active_support/all"
 require 'nokogiri'
 require 'open-uri'
 
-module Helpers
-  extend ActiveSupport::NumberHelper
-end
+# module Helpers
+#   extend ActiveSupport::NumberHelper
+# end
 
 module Jekyll
   class GoogleScholarCitationsTag < Liquid::Tag
