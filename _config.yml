@@ -9,7 +9,7 @@ last_name: Kalaga
 contact_note: >
   Feel free to reach out via email for collaboration opportunities or questions.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Data scientist with 4+ years taking problems from framing to production. Build Python/SQL data pipelines; train and evaluate NLP/ML models (LLMs with vLLM); serve models through APIs and decision-ready dashboards.
+  Recent Data Science Master's graduate from George Washington University (GPA: 3.90). Led research initiatives to process 1M+ job descriptions with LLMs, shipped open-source analytics software recognized at GWU's Open-Source Awards, and organized AI/ML events reaching 1,500+ developers as GDG On-Campus President. Experienced in building production ML pipelines, full-stack data platforms, and scalable APIs.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
