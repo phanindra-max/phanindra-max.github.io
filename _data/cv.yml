@@ -113,6 +113,9 @@
 - title: Presentations and Awards
   type: time_table
   contents:
+    - year: January 2026
+      items:
+        - "GWU Open-Source Student Awards: Received award for open-source contributions"
     - year: October 2025
       items:
         - "DC Startup and Tech Week: Hosted a technical workshop for 60+ startup founders"

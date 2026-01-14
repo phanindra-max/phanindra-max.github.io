@@ -6,12 +6,9 @@ subtitle: <a href='https://www.gwu.edu/'>George Washington University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>LAiSER Lab</p>
-    <p>805 21st Street NW</p>
-    <p>Washington, D.C.</p>
+  image: # disabled - no profile image on right
+  image_circular: false
+  more_info:
 
 selected_papers: false # DISABLED - no publications yet
 social: true # includes social icons at the bottom of the page
@@ -27,14 +24,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Recent Data Science Master's graduate from George Washington University (GPA: 3.90), with a track record of delivering production-grade ML systems and leading impactful research. I build Python/SQL data pipelines, train and deploy NLP/ML models (LLMs with vLLM), and serve models through scalable APIs and decision-ready dashboards. I ship open-source packages with GitHub Actions CI and optimize inference on HPC/GPU clusters achieving 7x throughput improvements.
+I build AI/ML systems that ship. MS Data Science from GWU (3.90 GPA).
 
-During my graduate studies, I served as Lead Graduate Research Specialist at [LAiSER Lab](https://laiser.gwu.edu/), where I led the development of an open-source analytics package processing 1M+ job descriptions for workforce skill gap analysis—work that informed policy recommendations for the Texas Workforce Commission. I also built an autograding toolkit as a Graduate Assistant that reduced grading turnaround from 3 days to 2 hours, and led a team of 5 to deploy a full-stack analytics platform (Next.js + Flask) for sustainable development research.
+At [LAiSER Lab](https://laiser.gwu.edu/), I led development of an open-source NLP package that processed **1M+ job descriptions** for workforce analytics—work that informed policy for the Texas Workforce Commission. I achieved 7x inference throughput using vLLM on HPC clusters that cut turnaround from **2 months to 8 days**.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0" style="width: 400px;">
-        {% include figure.liquid loading="eager" path="assets/img/phanindra-about2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-3 justify-content-center">
+    <div class="col-auto mt-3 mt-md-0" style="max-width: 450px;">
+        {% include figure.liquid loading="eager" path="assets/img/About me.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
-Beyond technical work, I'm passionate about developer communities. As President of Google Developer Groups On-Campus at GWU, I organized AI/ML events reaching 1,500+ developers including DevFestDC and DevFest Annapolis. My open-source contributions earned recognition at GWU's Open-Source Awards, and my medical AI project was selected for presentation at UN Open-Source Week 2025.
+As **President of GDG On-Campus at GWU**, I organized AI/ML events reaching 1,500+ developers. My medical AI project was selected for **UN Open-Source Week 2025**, and I'm a **2x GWU Open-Source Award winner** (2025, 2026).
