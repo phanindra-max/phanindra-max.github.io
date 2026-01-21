@@ -341,6 +341,11 @@ ninja.data = [{
           description: "Comprehensive performance analysis of MySQL, MongoDB, and Neo4j for graph operations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Benchmarking-Database-Architectures-for-Network-Analytics/";
+            },},{id: "projects-frameworklens",
+          title: 'FrameworkLens',
+          description: "Lightweight AI risk + ERM survey that scores readiness across NIST AI RMF, COSO ERM, and core GRC practices",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/FrameworkLens/";
             },},{id: "projects-global-co-emissions-analysis-dashboard",
           title: 'Global CO₂ Emissions Analysis Dashboard',
           description: "Interactive platform analyzing 223 years of climate data to identify emission drivers and solutions",
