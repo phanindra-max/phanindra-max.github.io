@@ -8,7 +8,7 @@
     - name: Phone
       value: +1-771-233-3129
     - name: Website
-      value: phanindra-max.tech
+      value: funindra.me
     - name: Languages
       value: English, Telugu, Hindi
 
@@ -16,20 +16,20 @@
   type: map
   contents:
     - name: Summary
-      value: Data scientist skilled in end-to-end problem-solving, from framing challenges to production deployment. Proficient in building robust data pipelines with Python and SQL, and training machine learning models with a focus on NLP and LLMs. Experienced in deploying models as scalable APIs, creating decision-ready dashboards, and shipping open-source software with modern CI/CD practices. Comfortable working across the full data stack, from backend services to frontend interfaces.
+      value: Full-Stack AI Engineer and Data Scientist with 3+ years of building AI-enabled software. Delivered end-to-end systems across data pipelines, LLM integration, APIs, and cloud deployment. Shipped open-source tools and shared lessons learned through public speaking at AI and open-source events. Consistently ramped quickly and took ownership early in senior-leaning teams.
 
 - title: Education
   type: time_table
   contents:
     - title: Master of Science in Data Science
       institution: George Washington University, Washington, D.C.
-      year: 2024 - Present
+      year: Jan 2024 - Dec 2025
       description:
         - GPA 3.90
         - "Relevant Coursework: Machine Learning, NLP, Data Mining, Computer Vision, Cloud Computing"
     - title: Bachelor of Technology in Computer Science and Engineering
       institution: Jawaharlal Nehru Technological University, India
-      year: 2019 - 2023
+      year: Aug 2019 - May 2023
       description:
 
 - title: Experience
@@ -39,45 +39,49 @@
       institution: George Washington University, Washington, D.C.
       year: April 2024 - Present
       description:
-        - "**Open Source**: Built an open-source NLP package for skills and workforce analytics; co-authored paper submitted to the Journal of Open Source Software (JOSS)."
-        - "**Data Engineering**: Designed scalable pipelines for skill extraction from 1M+ job descriptions; achieved 7x throughput using vLLM on HPC clusters."
-        - "**Data Visualization**: Built Neo4j and Plotly 3D maps to show skill gaps across 1,000+ university courses for the Texas Workforce Commission; work informed two local training policies."
-        - "**Project Management**: Ran weekly SCRUM; delivered 5 milestones on or ahead of schedule using GitHub Actions and issue tracking."
-        - "**Dev Environment**: Standardized the analytics environment on AWS and authored shared Python libraries for the team."
-        - "**Data Ethics**: Authored data-ethics guidelines; eliminated 100% of PII from public datasets."
-    
-    - title: Graduate Assistant, Natural Language Processing Class
-      institution: George Washington University, Washington, D.C.
-      year: Aug 2024 - Present
-      description:
-        - "**Automation**: Built a Python autograding toolkit; cut grading turnaround from 3 days to 2 hours across 10 assignments (~5 minutes per submission), saving ~100 TA hours and reducing regrade requests to 0."
-        - "**Cloud Runtime**: Standardized the environment on AWS EC2 with a CUDA/PyTorch AMI; configured S3 for artifacts, IAM for access, and CloudWatch for monitoring."
-        - "**Course Dashboards**: Built instructor dashboards and learner survey tools to track assignment and activity patterns."
-        - "**Tech**: Python, pandas, NumPy, scikit-learn, NLTK, Hugging Face, Matplotlib, OpenPyXL, AWS (EC2, S3, IAM, CloudWatch), CUDA, PyTorch, Blackboard."
+        - "**LLM Pipeline Scaling**: Built and scaled LLM extraction pipelines across 1M+ records using vLLM; improved inference throughput 7x, cutting end-to-end processing time from 2 months to 8 days for empirical research workflows."
+        - "**LLM API Integration**: Integrated Gemini API into LAiSER for multi-model evaluation workflows; designed abstraction layers to support rapid experimentation across different LLM providers."
+        - "**Retrieval Performance**: Implemented FAISS-based semantic search and optimized retrieval, delivering a consistent 30% speed improvement for retrieval-augmented research workflows."
+        - "**Open-source Engineering**: Primary maintainer of LAiSER GitHub organization (multiple repos) with a team of 7; drove architecture decisions, reusable libraries, and rapid iteration to support reproducible research. 2x winner of GW OSPO annual open-source student awards."
+        - "**Release Quality & DevSecOps**: Led releases for 4+ major versions using GitHub Actions; added CodeQL and Dependabot for automated scanning and alerts; standardized Conventional Commits and Semantic Versioning for transparent collaboration."
+        - "**Research Communication**: Worked with non-technical partners to explain design choices and trade-offs; supported over $1M in grant-backed research delivery with partners including the Walmart Foundation and the Gates Foundation, applying NIST AI RMF for risk management."
 
-    - title: Data Science Intern, Data Science for Sustainable Development
+    - title: Software Engineer Intern, Data Science for Sustainable Development
       institution: George Washington University, Washington, D.C.
       year: Aug 2024 - Dec 2024
       description:
-        - "**Full-Stack Engineering**: Led a team of 5 to design and deploy an open-access repository of 200+ non-profits (Next.js, Flask, Supabase on AWS EC2/S3)."
-        - "**Data Analysis**: Designed Figma wireframes and embedded n8n AI agents for admin insights across 50+ projects; increased partner collaboration by 30%."
+        - "**Web Platform Integration**: Led a team of 5 to design and deploy a web-based analytics platform (Next.js, Flask) on AWS EC2 and S3, integrating data pipelines and APIs for collaborative research workflows."
+        - "**Workflow Automation**: Built agentic workflows to generate insights and operational summaries, improving partner collaboration efficiency by 30%."
 
     - title: Full-Stack Engineer
       institution: NashAgri, An Agritech B2C Organization, Maharashtra, India
-      year: July 2021 – Jan 2023
+      year: July 2021 - Jan 2023
       description:
-        - "**Product**: Built a cross-platform CRM from scratch; added ML analytics to improve operational efficiency."
-        - "**Geospatial**: Managed geospatial data for 45,000+ farmers across 25,000+ regions (MongoDB, GeoJSON); generated insights for partnerships."
-        - "**Backend**: Engineered 5+ core features (invoice generation, RBAC, real-time auctions) supporting a 40% increase in vendor transactions in the first quarter."
+        - "**Product Systems**: Built a cross-platform CRM from scratch to manage vendor transactions and inventory; added ML analytics to improve operational visibility and decision-making."
+        - "**Data & Geo Analytics**: Managed geospatial data for 45,000+ farmers across 25,000+ regions (MongoDB, GeoJSON) to improve supply chain visibility and generate strategic insights."
+        - "**Backend Features**: Delivered 5+ core features (invoice generation, RBAC, real-time auctions) supporting a 40% increase in vendor transactions in the first quarter."
+
+- title: Certifications
+  type: time_table
+  contents:
+    - title: Google Cloud Professional Cloud Architect
+      year: Jan 2026
+      description:
 
 - title: Projects
   type: time_table
   contents:
-    - title: Reinforcement Learning for Pseudo-Labeling
-      year: 2024
+    - title: Reinforcement Learning for Pseudo-Labeling (Capstone Project)
+      year: 2025
       description:
         - Model agnostic, custom RL environment for data annotation to outperform state-of-the-art semi-supervised techniques and enable reproducible evaluation.
         - "**Tools**: *OpenAI Gymnasium, High Performance Compute (HPC), Tensorboard, PyTorch (torchvision)*"
+
+    - title: Danger Detection with ML (GWU Open-Source Student Award, 2026)
+      year: 2026
+      description:
+        - Built a real-time computer vision prototype to detect hazards at schools and public spaces; implemented instant alerts with captured visual evidence. Achieved 25 FPS mean throughput on edge CPU for low-latency IoT. Open-source on GitHub.
+        - "**Tools**: *Python, OpenCV, YOLOv3 (Darknet), NumPy, argparse, SMTP (email notifications)*"
 
     - title: Benchmarking Database Architectures for Network Analytics
       year: 2024
@@ -91,13 +95,22 @@
         - Built a dashboard analyzing 223 years of CO₂ data across countries, sectors, and income groups to identify relation between historical emissions and renewable adoption priorities.
         - "**Tools**: *Tableau, Python, pandas, Plotly, Matplotlib*"
 
-    - title: My Own Medic
+    - title: My Own Medic (Selected for United Nations Open-Source Week 2025)
       year: 2023
       description:
-        - End-to-end open-source AI architecture for a medical assistant leveraging EHR records and LLMs to prevent medical errors; Project selected for presentation at UN Open-Source Week 2025, New York.
-        - "**Tools**: *MySQL, PHP, Hugging Face API, Data Compliance (HIPAA)*"
+        - Designed an open-source architecture for a medical assistant using EHR records and LLMs to reduce documentation errors and improve clinical workflows. Open-source on GitHub.
+        - "**Tools**: *MySQL, PHP, Hugging Face API, HIPAA compliance*"
 
-- title: Leadership & Developer Relations
+- title: Publications
+  type: time_table
+  contents:
+    - title: LAiSER (Journal of Open Source Software, under review)
+      year: Oct 2025
+      description:
+        - Technical paper submitted Oct. 2025; describes the LAiSER open-source system and emphasizes reproducible research software practices.
+        - <a href="https://joss.theoj.org/papers/f110f1dc1c3d1be090f49b95b4570a5f">Submission link</a>
+
+- title: Developer Relations
   type: time_table
   contents:
     - title: President, Google Developer Groups On-Campus at GWU
@@ -115,13 +128,19 @@
   contents:
     - year: January 2026
       items:
-        - "GWU Open-Source Student Awards: Received award for open-source contributions"
+        - "GWU Open-Source Student Awards: Received award for open-source contributions (Danger Detection with ML)"
+    - year: December 2025
+      items:
+        - "Build with AI - Startup Day: Organized a summit for 200 attendees featuring C-suite executives and senior engineers; delivered a session on the impact of open-source software on AI and business strategy"
+    - year: November 2025
+      items:
+        - "DevFest Annapolis: Hosted a tech-talk and technical workshop on Model Context Protocol (MCP), Multi Agent Systems (MAS) and agent communication mechanisms for 100+ students and faculty"
     - year: October 2025
       items:
-        - "DC Startup and Tech Week: Hosted a technical workshop for 60+ startup founders"
+        - "DC Startup and Tech Week: Hosted a technical workshop for 60+ startup founders on building with AI, containers, and serverless deployments on Google Cloud"
     - year: July 2025
       items:
-        - "Badge Summit at CU Boulder: Hosted a table talk with 50 leaders in higher-education research"
+        - "Badge Summit at CU Boulder: Hosted a table talk with 50 leaders in higher-education research on skills and credentials"
     - year: May 2025
       items:
         - "GWU Open Source Conference: Delivered a keynote session on open-source software best practices"
@@ -135,24 +154,12 @@
     - title: Languages
       items:
         - Python, SQL, JavaScript, R
-    - title: ML/AI
+    - title: ML & LLMs
       items:
         - NLP, LLMs, vLLM, PyTorch, scikit-learn, Hugging Face
-    - title: Data & Infrastructure
+    - title: Data, Cloud & MLOps
       items:
-        - Pandas, NumPy, Spark, Airflow, Docker
-    - title: Cloud Platforms
+        - Pandas, NumPy, Spark, Airflow, Docker, AWS (EC2, S3, IAM, CloudWatch), GCP, Git, GitHub Actions, CI/CD, MLflow
+    - title: Databases & Product
       items:
-        - AWS (EC2, S3, IAM, CloudWatch), GCP
-    - title: Databases
-      items:
-        - PostgreSQL, MySQL, MongoDB, Neo4j
-    - title: Web & Serving
-      items:
-        - FastAPI, Flask, Next.js, React
-    - title: MLOps & DevOps
-      items:
-        - Git, GitHub Actions, CI/CD, MLFlow
-    - title: Visualization
-      items:
-        - Plotly, Matplotlib, Tableau
+        - PostgreSQL, MySQL, MongoDB, Neo4j, FastAPI, Flask, Next.js, React, Plotly, Matplotlib, Tableau
