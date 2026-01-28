@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Data scientist skilled in end-to-end problem-solving, from framing challenges to production deployment. Proficient in building robust data pipelines and training machine learning models with a focus on NLP and LLMs.",
+          description: "Full-Stack AI Engineer and Data Scientist with 3+ years of building AI-enabled software. Delivered end-to-end systems across data pipelines, LLM integration, APIs, and cloud deployment.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
