@@ -9,338 +9,69 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Journal papers and manuscripts under review, in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of my coolest works.",
+          description: "Research projects and open-source software.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Full-Stack AI Engineer and Data Scientist with 3+ years of building AI-enabled software. Delivered end-to-end systems across data pipelines, LLM integration, APIs, and cloud deployment.",
+          description: "Curriculum vitae",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+        },{id: "news-taught-a-workshop-on-multi-agent-systems-and-the-model-context-protocol-at-devfest-annapolis-for-100-students-and-faculty",
+          title: 'Taught a workshop on multi-agent systems and the Model Context Protocol at DevFest...',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-benchmarking-database-architectures-for-network-analytics",
+          section: "News",},{id: "news-completed-an-ms-in-data-science-at-george-washington-university",
+          title: 'Completed an MS in Data Science at George Washington University.',
+          description: "",
+          section: "News",},{id: "news-received-a-gw-open-source-student-award-for-danger-detection-with-ml",
+          title: 'Received a GW Open-Source Student Award for Danger Detection with ML.',
+          description: "",
+          section: "News",},{id: "news-the-laiser-paper-entered-open-peer-review-at-the-journal-of-open-source-software",
+          title: 'The LAiSER paper entered open peer review at the Journal of Open Source...',
+          description: "",
+          section: "News",},{id: "news-presented-a-poster-on-laiser-at-the-university-of-chicago-ai-science-summer-school",
+          title: 'Presented a poster on LAiSER at the University of Chicago AI+Science Summer School....',
+          description: "",
+          section: "News",},{id: "news-spoke-as-a-panelist-at-united-nations-open-source-week-community-day-the-proposal-was-selected-from-700-submissions",
+          title: 'Spoke as a panelist at United Nations Open Source Week Community Day; the...',
+          description: "",
+          section: "News",},{id: "news-joined-the-open-syllabus-project-as-a-data-science-consultant-leading-its-ai-policy-project",
+          title: 'Joined the Open Syllabus Project as a Data Science Consultant, leading its AI...',
+          description: "",
+          section: "News",},{id: "news-submitted-agent-security-meets-regulatory-reality-to-software-practice-and-experience-with-krishna-mohan-guda-nagavenkata-srinivasa-and-karthik-guda-vishnu-the-reference-implementation-is-open-source",
+          title: 'Submitted Agent Security Meets Regulatory Reality to Software: Practice and Experience with Krishna...',
+          description: "",
+          section: "News",},{id: "news-invited-to-speak-at-gw-coders-lunch-and-learn-on-december-2-the-open-source-edge-when-sharing-your-code-becomes-your-start-up-moat",
+          title: 'Invited to speak at GW Coders Lunch and Learn on December 2: The...',
+          description: "",
+          section: "News",},{id: "projects-benchmarking-database-architectures-for-network-analytics",
           title: 'Benchmarking Database Architectures for Network Analytics',
           description: "Comprehensive performance analysis of MySQL, MongoDB, and Neo4j for graph operations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Benchmarking-Database-Architectures-for-Network-Analytics/";
+            },},{id: "projects-case-bound-controls-for-autonomous-agents",
+          title: 'Case-Bound Controls for Autonomous Agents',
+          description: "Open-source reference implementation of auditable control invariants for autonomous agents in regulated financial workflows",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/casebound/";
+            },},{id: "projects-danger-detection-with-ml",
+          title: 'Danger Detection with ML',
+          description: "Real-time computer vision prototype that detects firearms and fire in video streams and sends alerts with visual evidence",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/danger-detection/";
             },},{id: "projects-frameworklens",
           title: 'FrameworkLens',
           description: "Lightweight AI risk + ERM survey that scores readiness across NIST AI RMF, COSO ERM, and core GRC practices",
@@ -351,21 +82,21 @@ ninja.data = [{
           description: "Interactive platform analyzing 223 years of climate data to identify emission drivers and solutions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Global-CO2-Emissions-Analysis-Dashboard/";
+            },},{id: "projects-laiser",
+          title: 'LAiSER',
+          description: "Open-source framework that links skills in job postings and syllabi to national taxonomies, with every match traceable to its source",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/laiser/";
             },},{id: "projects-my-own-medic-m-o-m",
           title: 'My Own Medic (M.O.M)',
-          description: "AI-powered medical assistant for accessible health guidance using LLMs",
+          description: "Prototype of a chat-based health information assistant built on a hosted language model",
           section: "Projects",handler: () => {
               window.location.href = "/projects/My-Own-Medic/";
             },},{id: "projects-reinforcement-learning-for-pseudo-labeling",
           title: 'Reinforcement Learning for Pseudo-Labeling',
-          description: "Model-agnostic RL framework for intelligent pseudo-label selection in semi-supervised learning",
+          description: "Two approaches to selecting pseudo-labels with reinforcement learning, and what made them unstable",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Reinforcement-Learning-for-Pseudo-Labeling/";
-            },},{id: "projects-visualizer-max",
-          title: 'Visualizer-Max',
-          description: "An interactive data visualization repository demonstrating advanced methods for representing complex data.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/visualizer-max/";
             },},{
         id: 'social-email',
         title: 'email',
