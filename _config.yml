@@ -3,23 +3,23 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Phanindra
+first_name: Satya Phanindra
 middle_name: 
 last_name: Kalaga
 contact_note: >
-  Feel free to reach out via email for collaboration opportunities or questions.
+  I welcome conversations about research and PhD opportunities. Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Recent Data Science Master's graduate from George Washington University (GPA: 3.90). Led research initiatives to process 1M+ job descriptions with LLMs, shipped open-source analytics software recognized at GWU's Open-Source Awards, and organized AI/ML events reaching 1,500+ developers as GDG On-Campus President. Experienced in building production ML pipelines, full-stack data platforms, and scalable APIs.
+  Satya Phanindra Kalaga works on making language model systems reliable and accountable in high-stakes settings. Data Science Consultant with the Open Syllabus Project and MS Data Science graduate of George Washington University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: data-science, machine-learning, nlp, portfolio, python, data-engineering # add your own keywords or leave empty
+keywords: language models, AI policy, AI governance, natural language processing, autonomous agents, reproducible research
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png
 
-url: https://phanindra-max.github.io # the base hostname & protocol for your site
+url: https://funindra.me
 baseurl:  "" # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -46,7 +46,7 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
@@ -62,9 +62,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true
+serve_schema_org: true
+og_image: https://funindra.me/assets/img/prof_pic.jpg
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -143,12 +143,10 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
       layout: post
-    output: false # DISABLED - news feature turned off
+    output: false
   projects:
     output: true
 
@@ -186,7 +184,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -252,8 +249,6 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -264,7 +259,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Kalaga]
-  first_name: [Phanindra]
+  first_name: [Satya Phanindra Kumar, Satya Phanindra, Phanindra]
 
   style: apa
   locale: en
@@ -323,7 +318,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

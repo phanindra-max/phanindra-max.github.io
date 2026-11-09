@@ -1,14 +1,13 @@
 ---
 layout: page
 title: My Own Medic (M.O.M)
-description: AI-powered medical assistant for accessible health guidance using LLMs
-img: assets/img/my-own-medic.jpeg
+description: Prototype of a chat-based health information assistant built on a hosted language model
 importance: 1
-category: work
+category: software
 related_publications: false
 ---
 
-An AI medical assistant that understands your health history. Instead of generic web searches that ignore your medications, allergies, and conditions, M.O.M delivers **personalized, context-aware health guidance** through a simple chat interface.
+My Own Medic is an open-source learning prototype of a chat-based health information assistant. It was built to learn how language models can be applied in health care, and in particular whether giving a model a person's medications, allergies, diagnoses, and lab results can make its answers more relevant to that person.
 
 Selected for presentation at **UN Open-Source Week 2025** in New York.
 
@@ -20,45 +19,28 @@ Selected for presentation at **UN Open-Source Week 2025** in New York.
 
 ---
 
-## The Problem
+## Motivation
 
-Searching "chest pain" online returns millions of results—from heart attacks to muscle strain. None of them know you're on blood thinners, allergic to aspirin, or had a stent placed last year. **Generic health advice can be dangerous.**
-
-M.O.M solves this by loading your complete medical profile into every conversation, ensuring responses account for your unique situation.
+General web search does not account for an individual's medical history, yet the right guidance can depend on it. A person taking a blood thinner, for example, needs different information about pain relief than someone who is not. This project examines how personal health context could be supplied to a language model.
 
 ---
 
-## What It Does
+## What Was Built
 
-**Context-Aware Medical Chat** — Ask health questions and get responses that consider your medications, allergies, diagnoses, and lab results. The AI won't suggest ibuprofen if you're on blood thinners.
+**Web prototype.** A chat interface built with HTML, JavaScript, and PHP sends each message to the Qwen 2.5 32B model through the Groq API. The system prompt instructs the model not to diagnose and to recommend consulting a healthcare professional.
 
-**Conversation Summaries** — One click generates a structured summary of your chat, perfect for sharing with your doctor at your next appointment.
+**Patient context notebook.** A Python notebook inserts a structured patient record, covering demographics, medications, diagnoses, allergies, and lab results, into the prompt. It uses mock data for a fictional patient.
 
-**Risk Assessments** — Based on your conversation and health data, the system flags potential short-term and long-term health considerations.
-
-
----
-
-## Real-World Use Cases
-
-**Rural Health Clinics** — In areas with limited access to specialists, M.O.M can help patients understand their conditions and prepare better questions for their next telemedicine appointment. A patient managing diabetes can ask about medication interactions before their quarterly check-in.
-
-**Elderly Care** — Seniors often take multiple medications and struggle to remember contraindications. A caregiver can use M.O.M to quickly check if a new over-the-counter pain reliever is safe given the patient's existing prescriptions, without waiting for pharmacy callbacks.
+**Summary and risk prompts.** The backend includes prompts that generate a conversation summary and a general risk overview, with instructions to state that the output is not medical advice.
 
 ---
 
-## How It Works
+## Open Questions
 
-The system uses a **32-billion parameter LLM (Qwen 2.5)** with custom prompt engineering. When you ask a question, your complete medical profile—demographics, medications, diagnoses, allergies, recent lab results—gets injected into the prompt context. The AI response is grounded in your specific health situation.
+- How should a model's use of patient context be tested against clinician-reviewed cases?
+- What architecture would allow personal health data to be used without sending it to a third party?
 
-
-**Tech Stack:** Python • PHP • JavaScript • Groq API • Qwen 2.5 LLM
-
----
-
-## HIPAA Compliance
-
-The project incorporates data compliance measures including HIPAA considerations for handling sensitive medical information. Patient data is processed locally and never stored on external servers.
+**Tech Stack:** Python, PHP, JavaScript, Groq API, Qwen 2.5
 
 ---
 
@@ -66,9 +48,6 @@ The project incorporates data compliance measures including HIPAA considerations
     <div class="col-auto">
         <a href="https://github.com/GDSC-GWU/my-own-medic" class="btn btn-outline-primary" target="_blank">
             <i class="fab fa-github"></i> View on GitHub
-        </a>
-        <a href="https://github.com/GDSC-GWU/my-own-medic/blob/main/docs/README.md" class="btn btn-outline-secondary" target="_blank">
-            <i class="fas fa-book"></i> Documentation
         </a>
     </div>
 </div>

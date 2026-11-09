@@ -2,9 +2,8 @@
 layout: page
 title: Global CO₂ Emissions Analysis Dashboard
 description: Interactive platform analyzing 223 years of climate data to identify emission drivers and solutions
-img: assets/img/tableau.png
-importance: 4
-category: work
+importance: 3
+category: software
 related_publications: false
 ---
 
