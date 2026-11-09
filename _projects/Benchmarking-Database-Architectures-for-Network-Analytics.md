@@ -2,9 +2,8 @@
 layout: page
 title: Benchmarking Database Architectures for Network Analytics
 description: Comprehensive performance analysis of MySQL, MongoDB, and Neo4j for graph operations
-img: assets/img/road-network-analysis.png
-importance: 3
-category: work
+importance: 4
+category: research
 related_publications: false
 ---
 
@@ -59,24 +58,24 @@ We implemented a **fair, apples-to-apples comparison** using:
 
 ## Key Features
 
-### 🔄 Automated Data Generation
+### Automated Data Generation
 Script generates large-scale synthetic road network dataset (500 cities, 250K edges) ensuring reproducibility
 
-### 📊 Multi-Database Population
+### Multi-Database Population
 Optimized batch insertion scripts populate identical dataset efficiently across all three databases
 
-### 🎯 Unified Query Suite  
+### Unified Query Suite  
 Four distinct, equivalent queries designed to test common network analytics operations across paradigms
 
-### 📈 Real-Time Metrics Monitoring
+### Real-Time Metrics Monitoring
 `psutil` library captures detailed CPU usage and memory consumption patterns during query execution
 
-### 📉 Comprehensive Visualizations
+### Comprehensive Visualizations
 Automatically generates 15+ comparative performance charts clearly illustrating trade-offs between databases
 
 ## Performance Results
 
-### 🏆 Winner by Query Type
+### Winner by Query Type
 
 | Query Type | Winner | Execution Time | Runner-Up |
 |------------|--------|----------------|-----------|
@@ -85,7 +84,7 @@ Automatically generates 15+ comparative performance charts clearly illustrating 
 | **Aggregation (Q2)** | **MongoDB** | **1.5s** | MySQL (2.25s) |
 | **Simple Filtering (Q1)** | **MySQL** | **0.25s** | MongoDB (0.35s) |
 
-### 📊 Performance Highlights
+### Performance Highlights
 
 - **Neo4j**: **19.2x faster** than MongoDB for shortest path queries
 - **MySQL**: **5.4x faster** than MongoDB for multi-hop traversals
@@ -94,16 +93,16 @@ Automatically generates 15+ comparative performance charts clearly illustrating 
 
 ## Key Insights
 
-### 🎯 Specialized Tools for Specialized Jobs
+### Specialized Tools for Specialized Jobs
 Neo4j's **19.2x performance gain** for shortest path queries proves the immense value of native graph databases for pathfinding algorithms.
 
-### 📈 Query Type Matters Most
+### Query Type Matters Most
 The benchmark demonstrates that **operation type** (pathfinding vs. aggregation) is more critical than database model itself.
 
-### ⚡ Modern SQL is Graph-Capable
+### Modern SQL is Graph-Capable
 MySQL's strong traversal performance shows that **Recursive CTEs** make relational databases viable for moderate graph workloads.
 
-### 🔗 Document Stores Struggle with Relationships
+### Document Stores Struggle with Relationships
 MongoDB's reliance on application-side logic (custom BFS) or complex `$lookup` pipelines for graph operations resulted in significant performance penalties.
 
 ## Decision Framework
@@ -121,10 +120,10 @@ Based on our findings, we recommend:
 
 This research provides:
 
-✅ **Evidence-based decision making** for database architecture selection  
-✅ **Reproducible methodology** for custom benchmarking scenarios  
-✅ **Performance baselines** for network analytics applications  
-✅ **Cost optimization** guidance for cloud database deployments
+**Evidence-based decision making** for database architecture selection  
+**Reproducible methodology** for custom benchmarking scenarios  
+**Performance baselines** for network analytics applications  
+**Cost optimization** guidance for cloud database deployments
 
 ### Real-World Applications
 - Transportation/routing systems

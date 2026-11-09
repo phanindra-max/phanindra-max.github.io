@@ -2,21 +2,22 @@
   type: map
   contents:
     - name: Full Name
-      value: Phanindra Kalaga
+      value: Satya Phanindra Kalaga
     - name: Email
       value: phanindra.connect@gmail.com
-    - name: Phone
-      value: +1-771-233-3129
     - name: Website
       value: funindra.me
+    - name: ORCID
+      value: 0009-0004-6447-3760
     - name: Languages
       value: English, Telugu, Hindi
 
-- title: Professional Summary
-  type: map
+- title: Research Interests
+  type: list
   contents:
-    - name: Summary
-      value: Full-Stack AI Engineer and Data Scientist with 3+ years of building AI-enabled software. Delivered end-to-end systems across data pipelines, LLM integration, APIs, and cloud deployment. Shipped open-source tools and shared lessons learned through public speaking at AI and open-source events. Consistently ramped quickly and took ownership early in senior-leaning teams.
+    - Reliability and reproducibility of language model systems
+    - Accountability and auditability of autonomous agents
+    - AI policy and governance in education and the workforce
 
 - title: Education
   type: time_table
@@ -32,56 +33,150 @@
       year: Aug 2019 - May 2023
       description:
 
-- title: Experience
+- title: Publications
   type: time_table
   contents:
-    - title: Lead Graduate Research Specialist, LAiSER
+    - title: "Agent Security Meets Regulatory Reality: A Practitioner Systematization of Autonomous-Agent Threats and Controls in Regulated Financial Systems"
+      year: 2026
+      description:
+        - "Krishna Mohan Guda Nagavenkata Srinivasa, **Satya Phanindra Kalaga**, and Karthik Guda Vishnu. *Software: Practice and Experience* (Wiley), submitted."
+        - "Contribution: revised the algorithms and several sections, and built the open-source reference implementation."
+        - <a href="https://github.com/vectortc/Agentic-Security-Regulated-Finance">Code artifact</a>
+
+    - title: "LAiSER: A Taxonomy-Aware Framework for Skill Extraction and Research"
+      year: Nov 2025
+      description:
+        - "**Satya Phanindra Kumar Kalaga**, Bharat Khandelwal, Anket Vilasrao Patil, and Prudhviraju Chekuri. *Journal of Open Source Software*, under review."
+        - <a href="https://joss.theoj.org/papers/f110f1dc1c3d1be090f49b95b4570a5f">JOSS submission</a> and <a href="https://github.com/openjournals/joss-reviews/issues/10421">open peer review</a>
+
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Data Science Consultant, Open Syllabus Project
+      institution: VitalSource Technologies
+      year: Aug 2026 - Present
+      description:
+        - "**AI Policy Project**: Lead the analysis of how AI-use policies in academic syllabi have changed over time, working toward a public dashboard for students, universities, and journalists."
+        - "**Data Validation**: Built diagnostics for date errors, duplication, and extraction confidence so that reported policy rates rest on validated text."
+
+    - title: Data Research Specialist (AI/ML), LAiSER
       institution: George Washington University, Washington, D.C.
-      year: April 2024 - Present
+      department: Program on Skills, Credentials and Workforce Policy, Institute of Public Policy
+      year: Apr 2024 - Jul 2026
       description:
         - "**LLM Pipeline Scaling**: Built and scaled LLM extraction pipelines across 1M+ records using vLLM; improved inference throughput 7x, cutting end-to-end processing time from 2 months to 8 days for empirical research workflows."
         - "**LLM API Integration**: Integrated Gemini API into LAiSER for multi-model evaluation workflows; designed abstraction layers to support rapid experimentation across different LLM providers."
         - "**Retrieval Performance**: Implemented FAISS-based semantic search and optimized retrieval, delivering a consistent 30% speed improvement for retrieval-augmented research workflows."
-        - "**Open-source Engineering**: Primary maintainer of LAiSER GitHub organization (multiple repos) with a team of 7; drove architecture decisions, reusable libraries, and rapid iteration to support reproducible research. 2x winner of GW OSPO annual open-source student awards."
+        - "**Workforce Analysis**: Developed Neo4j and Plotly visualizations to identify skill gaps across 1,000+ courses and provided recommendations on two local training policies for the Texas Workforce Commission."
+        - "**Open-source Engineering**: Primary maintainer of LAiSER GitHub organization (multiple repos) with a team of 7; drove architecture decisions, reusable libraries, and rapid iteration to support reproducible research. Received the 2025 GW OSPO open-source student award for LAiSER."
         - "**Release Quality & DevSecOps**: Led releases for 4+ major versions using GitHub Actions; added CodeQL and Dependabot for automated scanning and alerts; standardized Conventional Commits and Semantic Versioning for transparent collaboration."
-        - "**Research Communication**: Worked with non-technical partners to explain design choices and trade-offs; supported over $1M in grant-backed research delivery with partners including the Walmart Foundation and the Gates Foundation, applying NIST AI RMF for risk management."
+        - "**Research Communication**: Worked with non-technical partners to explain design choices and trade-offs; supported $1M in grant-funded research with the Walmart Foundation and the Gates Foundation, applying NIST AI RMF for risk management."
 
-    - title: Software Engineer Intern, Data Science for Sustainable Development
+    - title: Data Science Intern, Data Science for Sustainable Development
       institution: George Washington University, Washington, D.C.
       year: Aug 2024 - Dec 2024
       description:
         - "**Web Platform Integration**: Led a team of 5 to design and deploy a web-based analytics platform (Next.js, Flask) on AWS EC2 and S3, integrating data pipelines and APIs for collaborative research workflows."
         - "**Workflow Automation**: Built agentic workflows to generate insights and operational summaries, improving partner collaboration efficiency by 30%."
 
-    - title: Full-Stack Engineer
-      institution: NashAgri, An Agritech B2C Organization, Maharashtra, India
-      year: July 2021 - Jan 2023
-      description:
-        - "**Product Systems**: Built a cross-platform CRM from scratch to manage vendor transactions and inventory; added ML analytics to improve operational visibility and decision-making."
-        - "**Data & Geo Analytics**: Managed geospatial data for 45,000+ farmers across 25,000+ regions (MongoDB, GeoJSON) to improve supply chain visibility and generate strategic insights."
-        - "**Backend Features**: Delivered 5+ core features (invoice generation, RBAC, real-time auctions) supporting a 40% increase in vendor transactions in the first quarter."
 
-- title: Certifications
+- title: Teaching and Workshops
   type: time_table
   contents:
-    - title: Google Cloud Professional Cloud Architect
-      year: Jan 2026
+    - title: Workshop Instructor, Multi-Agent Systems and Model Context Protocol
+      institution: DevFest Annapolis
+      year: Nov 2025
       description:
+        - Delivered a technical workshop and talk on Model Context Protocol (MCP), multi-agent systems, and agent communication mechanisms for 100+ students and faculty on November 15, 2025.
 
-- title: Projects
+    - title: Graduate Assistant, Natural Language Processing for Data Science (DATS 6312)
+      institution: George Washington University, Washington, D.C.
+      year: Aug 2025 - Dec 2025
+      description:
+        - "**Autograding**: Built a Python autograding toolkit that reduced grading turnaround from 3 days to 2 hours across 10 assignments, saving 100 TA hours."
+        - "**Course Infrastructure**: Standardized the course environment on AWS EC2 with a CUDA and PyTorch image, using S3 for artifacts, IAM for access, and CloudWatch for monitoring."
+        - "**Course Analytics**: Built instructor dashboards and learner survey tools to track assignment and activity patterns."
+
+    - title: Workshop Instructor, AI and Serverless Deployment on Google Cloud
+      institution: DC Startup and Tech Week
+      year: Oct 2025
+      description:
+        - Delivered a technical workshop for 60+ startup founders on building with AI, containers, and serverless deployments on Google Cloud.
+
+
+- title: Talks and Presentations
+  type: time_table
+  contents:
+    - year: December 2026
+      items:
+        - 'GW Coders Lunch and Learn: Invited talk, "The Open-Source Edge: When Sharing Your Code Becomes Your Start-up Moat," scheduled for December 2, 2026'
+
+    - year: 2026
+      items:
+        - 'Grace Hopper Celebration 2026: Talk, "The Open-Source Edge: Sharing Code as a Startup Moat," selected from 1,300+ proposals, and poster on LAiSER skill-extraction research accepted; the conference was canceled'
+
+    - year: June 2026
+      items:
+        - "United Nations Open Source Week 2026, Community Day: Panelist; proposal selected from 700+ submissions"
+        - "University of Chicago AI+Science Summer School: Presented a poster on LAiSER"
+
+    - year: 2026
+      items:
+        - 'GWU Open Source Conference: Delivered two lightning talks, "Chaos to Clarity: Standards for Open Source Growth" and "Open Source AI for Real-Time Danger Detection"'
+
+    - year: December 2025
+      items:
+        - "Build with AI - Startup Day: Organized a summit for 200 attendees featuring C-suite executives and senior engineers; delivered a session on the impact of open-source software on AI and business strategy"
+
+    - year: July 2025
+      items:
+        - "Badge Summit at CU Boulder: Hosted a table talk with 50 leaders in higher-education research on skills and credentials"
+
+    - year: 2025
+      items:
+        - "United Nations Open Source Week 2025: My Own Medic selected for presentation"
+
+    - year: May 2025
+      items:
+        - "GW Innovation Fest: Showcased LAiSER on May 1, 2025"
+        - "GWU Open Source Conference: Delivered a lightning talk on open-source software best practices"
+
+    - year: April 2025
+      items:
+        - "GW CCAS Poster Day: Showcased LAiSER on April 2, 2025"
+
+
+- title: Awards
+  type: time_table
+  contents:
+    - year: January 2026
+      items:
+        - "GWU Open-Source Student Awards: Received award for open-source contributions (Danger Detection with ML)"
+
+    - year: 2025
+      items:
+        - "QS Reimagine Education Awards: Bronze Award, AI in Education (Higher Education Institutions), for LAiSER; selected from over 1,600 global submissions"
+
+    - year: January 2025
+      items:
+        - "GWU Open-Source Student Awards: Received 3rd prize for best open-source software (LAiSER)"
+
+
+- title: Selected Projects
   type: time_table
   contents:
     - title: Reinforcement Learning for Pseudo-Labeling (Capstone Project)
       year: 2025
       description:
-        - Model agnostic, custom RL environment for data annotation to outperform state-of-the-art semi-supervised techniques and enable reproducible evaluation.
-        - "**Tools**: *OpenAI Gymnasium, High Performance Compute (HPC), Tensorboard, PyTorch (torchvision)*"
+        - Built a custom Gymnasium pseudo-labeling environment with policy gradients on MNIST, and implemented RLGSSL (Heidari et al., 2024) with adaptive reward and loss components on CIFAR-10. Reached 45.55% best accuracy with 1,000 labels and analyzed the instability introduced by the adaptive rewards. <a href="https://github.com/phanindra-max/Reinforcement-Learning-for-Pseudolabeling">Open-source on GitHub</a>.
+        - "**Tools**: *PyTorch (torchvision), Gymnasium, TensorBoard*"
 
-    - title: Danger Detection with ML (GWU Open-Source Student Award, 2026)
-      year: 2026
+    - title: My Own Medic (Selected for United Nations Open-Source Week 2025)
+      year: 2025
       description:
-        - Built a real-time computer vision prototype to detect hazards at schools and public spaces; implemented instant alerts with captured visual evidence. Achieved 25 FPS mean throughput on edge CPU for low-latency IoT. Open-source on GitHub.
-        - "**Tools**: *Python, OpenCV, YOLOv3 (Darknet), NumPy, argparse, SMTP (email notifications)*"
+        - Prototyped an open-source, chat-based health information assistant on a hosted language model, and demonstrated prompting with a structured patient record using mock data. <a href="https://github.com/GDSC-GWU/my-own-medic">Open-source on GitHub</a>.
+        - "**Tools**: *Python, PHP, JavaScript, Groq API, Qwen 2.5*"
 
     - title: Benchmarking Database Architectures for Network Analytics
       year: 2024
@@ -95,58 +190,49 @@
         - Built a dashboard analyzing 223 years of CO₂ data across countries, sectors, and income groups to identify relation between historical emissions and renewable adoption priorities.
         - "**Tools**: *Tableau, Python, pandas, Plotly, Matplotlib*"
 
-    - title: My Own Medic (Selected for United Nations Open-Source Week 2025)
-      year: 2023
+    - title: Danger Detection with ML (GWU Open-Source Student Award, 2026)
+      year: 2021
       description:
-        - Designed an open-source architecture for a medical assistant using EHR records and LLMs to reduce documentation errors and improve clinical workflows. Open-source on GitHub.
-        - "**Tools**: *MySQL, PHP, Hugging Face API, HIPAA compliance*"
+        - Built a real-time computer vision prototype that detects firearms and fire in video streams and sends email alerts with captured images, averaging 25 FPS on CPU. <a href="https://github.com/Kalaga-Studio/danger-detection-with-ml">Open-source on GitHub</a>.
+        - "**Tools**: *Python, OpenCV, YOLOv3 (Darknet), NumPy, argparse, SMTP (email notifications)*"
 
-- title: Publications
+
+- title: Service and Leadership
   type: time_table
   contents:
-    - title: LAiSER (Journal of Open Source Software, under review)
-      year: Oct 2025
+    - title: Co-organizer and Tech Lead, Google Developer Groups DC
+      year: May 2026 - Present
       description:
-        - Technical paper submitted Oct. 2025; describes the LAiSER open-source system and emphasizes reproducible research software practices.
-        - <a href="https://joss.theoj.org/papers/f110f1dc1c3d1be090f49b95b4570a5f">Submission link</a>
 
-- title: Developer Relations
-  type: time_table
-  contents:
     - title: President, Google Developer Groups On-Campus at GWU
-      year: 2024 - Present
+      year: Sep 2024 - Aug 2026
       description:
-        - Led 200+ student organization for AI/ML awareness via events and workshops; cohosted DevFestDC (900 attendees); cohosted DevFest Annapolis (300 attendees)
-    
-    - title: Chairperson of Relations, Data Science Association
-      year: 2024 - Present
-      description:
-        - Cultivated relationships with C-suite executives and senior engineers for hosting events to provide career insights to 170 data science students
+        - Led a 300+ member student organization for AI/ML awareness through events and workshops; cohosted DevFest DC (900 attendees) and DevFest Annapolis (250+ attendees)
 
-- title: Presentations and Awards
+    - title: Chairperson of Relations, Data Science Association
+      year: 2024 - May 2025
+      description:
+        - Cultivated relationships with C-suite executives and senior engineers for hosting events to provide career insights to 200+ data science students
+
+
+- title: Professional Experience
   type: time_table
   contents:
-    - year: January 2026
-      items:
-        - "GWU Open-Source Student Awards: Received award for open-source contributions (Danger Detection with ML)"
-    - year: December 2025
-      items:
-        - "Build with AI - Startup Day: Organized a summit for 200 attendees featuring C-suite executives and senior engineers; delivered a session on the impact of open-source software on AI and business strategy"
-    - year: November 2025
-      items:
-        - "DevFest Annapolis: Hosted a tech-talk and technical workshop on Model Context Protocol (MCP), Multi Agent Systems (MAS) and agent communication mechanisms for 100+ students and faculty"
-    - year: October 2025
-      items:
-        - "DC Startup and Tech Week: Hosted a technical workshop for 60+ startup founders on building with AI, containers, and serverless deployments on Google Cloud"
-    - year: July 2025
-      items:
-        - "Badge Summit at CU Boulder: Hosted a table talk with 50 leaders in higher-education research on skills and credentials"
-    - year: May 2025
-      items:
-        - "GWU Open Source Conference: Delivered a keynote session on open-source software best practices"
-    - year: January 2025
-      items:
-        - "GWU Open-Source Student Awards: Received 3rd prize for best open-source software"
+    - title: Full-Stack Engineer
+      institution: NashAgri, An Agritech B2C Organization, Maharashtra, India
+      year: July 2021 - Jan 2023
+      description:
+        - "**Product Systems**: Built a cross-platform CRM from scratch to manage vendor transactions and inventory; added ML analytics to improve operational visibility and decision-making."
+        - "**Data & Geo Analytics**: Managed geospatial data for 45,000+ farmers across 25,000+ regions (MongoDB, GeoJSON) to improve supply chain visibility and generate strategic insights."
+        - "**Backend Features**: Delivered 5+ core features (invoice generation, RBAC, real-time auctions) supporting a 40% increase in vendor transactions in the first quarter."
+
+
+- title: Certifications
+  type: time_table
+  contents:
+    - title: Google Cloud Professional Cloud Architect
+      year: Jan 2026
+      description:
 
 - title: Technical Skills
   type: nested_list

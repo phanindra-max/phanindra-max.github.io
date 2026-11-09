@@ -2,9 +2,8 @@
 layout: page
 title: FrameworkLens
 description: Lightweight AI risk + ERM survey that scores readiness across NIST AI RMF, COSO ERM, and core GRC practices
-img: assets/img/Risk-Assessment.jpg
-importance: 3
-category: work
+importance: 4
+category: software
 related_publications: false
 ---
 

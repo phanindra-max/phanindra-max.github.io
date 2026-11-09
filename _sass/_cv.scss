@@ -218,3 +218,8 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+.cv .badge.danger-color-dark {
+  background-color: var(--global-theme-color) !important;
+  color: var(--global-bg-color) !important;
+}
