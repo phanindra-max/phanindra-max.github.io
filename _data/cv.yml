@@ -57,8 +57,10 @@
       institution: VitalSource Technologies
       year: Aug 2026 - Present
       description:
-        - "**AI Policy Project**: Lead the analysis of how AI-use policies in academic syllabi have changed over time, working toward a public dashboard for students, universities, and journalists."
-        - "**Data Validation**: Built diagnostics for date errors, duplication, and extraction confidence so that reported policy rates rest on validated text."
+        - "**AI Policy Research**: Lead the study of how AI-use policies in academic syllabi have changed over time, owning the data and analysis work end to end toward a public dashboard for students, universities, and journalists."
+        - "**Language Model Data Quality**: Turned 32.9M unstructured syllabi into a structured, publishable dataset for $66 against a $220 to $650 budget. Hash-based deduplication cut the language model workload by 84%, and four automated quality gates held output validity at 99.2% and run-to-run agreement at κ 0.87 to 0.95."
+        - "**Corpus Expansion**: Added a new data source to the 33.5M-syllabus production corpus, loading 1.67M documents (1.54 TB) after profiling about 894M rows of crawl metadata and finding 1.58M cloud-hosted files the crawlers had missed. Built fault-tolerant ingestion across four cloud storage APIs that raised throughput 25 to 35x and cut a projected 56-day backlog to 2.6 days."
+        - "**Pipeline Monitoring**: Found that 53% of crawl jobs marked successful returned no data, by archiving and analyzing 1,197 jobs from a pipeline that had no monitoring. Built health rules and automated alerts that now flag stalled crawls within 40 minutes instead of 30 days."
 
     - title: Data Research Specialist (AI/ML), LAiSER
       institution: George Washington University, Washington, D.C.
@@ -84,6 +86,13 @@
 - title: Teaching and Workshops
   type: time_table
   contents:
+    - title: Computer Science and Precalculus Teacher
+      institution: A New York City charter high school
+      year: Jun 2026 - Aug 2026
+      description:
+        - Taught computer science and precalculus to 9th and 10th grade students.
+        - Guided students to reach each solution through more than one approach, which strengthened my own practice of approaching a problem from several directions.
+
     - title: Workshop Instructor, Multi-Agent Systems and Model Context Protocol
       institution: DevFest Annapolis
       year: Nov 2025
@@ -203,11 +212,12 @@
     - title: Co-organizer and Tech Lead, Google Developer Groups DC
       year: May 2026 - Present
       description:
+        - Co-organized DevFest DC 2026 for 800 attendees, leading social media marketing and connecting local student chapters and businesses to the event.
 
     - title: President, Google Developer Groups On-Campus at GWU
       year: Sep 2024 - Aug 2026
       description:
-        - Led a 300+ member student organization for AI/ML awareness through events and workshops; cohosted DevFest DC (900 attendees) and DevFest Annapolis (250+ attendees)
+        - Grew the chapter from 60 to 400+ members while leading AI/ML events and workshops; cohosted DevFest DC 2025 (900 attendees) and DevFest Annapolis (250+ attendees).
 
     - title: Chairperson of Relations, Data Science Association
       year: 2024 - May 2025
