@@ -57,8 +57,10 @@
       institution: VitalSource Technologies
       year: Aug 2026 - Present
       description:
-        - "**AI Policy Project**: Lead the analysis of how AI-use policies in academic syllabi have changed over time, working toward a public dashboard for students, universities, and journalists."
-        - "**Data Validation**: Built diagnostics for date errors, duplication, and extraction confidence so that reported policy rates rest on validated text."
+        - "**AI Policy Research**: Lead the study of how AI-use policies in academic syllabi have changed over time, owning the data and analysis work end to end toward a public dashboard for students, universities, and journalists."
+        - "**Language Model Data Quality**: Turned 32.9M unstructured syllabi into a structured, publishable dataset for $66 against a $220 to $650 budget. Hash-based deduplication cut the language model workload by 84%, and four automated quality gates held output validity at 99.2% and run-to-run agreement at κ 0.87 to 0.95."
+        - "**Corpus Expansion**: Added a new data source to the 33.5M-syllabus production corpus, loading 1.67M documents (1.54 TB) after profiling about 894M rows of crawl metadata and finding 1.58M cloud-hosted files the crawlers had missed. Built fault-tolerant ingestion across four cloud storage APIs that raised throughput 25 to 35x and cut a projected 56-day backlog to 2.6 days."
+        - "**Pipeline Monitoring**: Found that 53% of crawl jobs marked successful returned no data, by archiving and analyzing 1,197 jobs from a pipeline that had no monitoring. Built health rules and automated alerts that now flag stalled crawls within 40 minutes instead of 30 days."
 
     - title: Data Research Specialist (AI/ML), LAiSER
       institution: George Washington University, Washington, D.C.
