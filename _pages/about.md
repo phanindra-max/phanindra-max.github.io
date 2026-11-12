@@ -32,4 +32,4 @@ I work on making language model systems reliable and accountable in high-stakes 
 
 **Accountable autonomous agents.** I am a co-author of a manuscript submitted to _Software: Practice and Experience_ that systematizes threats and controls for autonomous agents in regulated financial systems, and I built its [open-source reference implementation](/projects/casebound/).
 
-Beyond research, I have taught [workshops on multi-agent systems](/cv/) to 100+ students and faculty, served as a graduate assistant for Natural Language Processing, and co-organize Google Developer Groups DC. I hold an MS in Data Science from George Washington University (3.90 GPA).
+Beyond research, I have taught computer science and precalculus at a New York City charter high school, taught [workshops on multi-agent systems](/cv/) to 100+ students and faculty, served as a graduate assistant for Natural Language Processing, and co-organize Google Developer Groups DC. I hold an MS in Data Science from George Washington University (3.90 GPA).

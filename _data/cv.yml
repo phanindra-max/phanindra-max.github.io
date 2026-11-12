@@ -86,6 +86,13 @@
 - title: Teaching and Workshops
   type: time_table
   contents:
+    - title: Computer Science and Precalculus Teacher
+      institution: A New York City charter high school
+      year: Jun 2026 - Sep 2026
+      description:
+        - Taught computer science and precalculus to 9th and 10th grade students.
+        - Guided students to reach each solution through more than one approach, which strengthened my own practice of approaching a problem from several directions.
+
     - title: Workshop Instructor, Multi-Agent Systems and Model Context Protocol
       institution: DevFest Annapolis
       year: Nov 2025
