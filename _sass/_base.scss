@@ -1427,3 +1427,14 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.speaking {
+  .speaking-title {
+    font-size: 0.95rem;
+  }
+
+  .speaking-caption {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+}

@@ -1,0 +1,41 @@
+# Photos for the speaking page, shown in this order.
+# To add one: put a 1600x1200 JPG in assets/img/speaking/ and add an entry below.
+- image: un-open-source-week-panel.jpg
+  title: United Nations Open Source Week, Community Day
+  date: Jun 2026
+  caption: Panelist on building social cohesion through trust, information, and communities. The proposal was selected from 700+ submissions.
+
+- image: gw-open-source-awards-2026.jpg
+  title: GW Open-Source Student Awards
+  date: Jan 2026
+  caption: Presenting how LAiSER's architecture was redesigned for modularity and reliable testing.
+
+- image: gwu-defining-skills-talk.jpg
+  title: George Washington University
+  date: Mar 2025
+  caption: Presenting LAiSER's framework for defining and measuring skills.
+
+- image: badge-summit.jpg
+  title: Badge Summit, University of Colorado Boulder
+  date: Jul 2025
+  caption: Speaking with higher-education leaders about skills and digital credentials.
+
+- image: devfest-annapolis-workshop.jpg
+  title: DevFest Annapolis
+  date: Nov 2025
+  caption: Teaching a workshop on the Model Context Protocol and multi-agent systems to 100+ students and faculty.
+
+- image: innovation-fest-poster.jpg
+  title: GW Innovation Fest
+  date: May 2025
+  caption: Walking visitors through LAiSER's research poster.
+
+- image: laiser-boot-camp.jpg
+  title: LAiSER Boot Camp
+  date: Jan 2025
+  caption: Guiding participants through hands-on exercises.
+
+- image: gw-open-source-awards-presentation.jpg
+  title: GW Open-Source Student Awards
+  date:
+  caption: Presenting our open-source project with a teammate.
