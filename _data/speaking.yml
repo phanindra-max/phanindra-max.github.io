@@ -1,0 +1,41 @@
+# Photos for the speaking page, shown in this order.
+# To add one: put a 1200x900 JPG in assets/img/speaking/ and add an entry below.
+- image: devfest-annapolis-workshop.jpg
+  title: DevFest Annapolis
+  date: Nov 2025
+  caption: Teaching a workshop on the Model Context Protocol and multi-agent systems to 100+ students and faculty.
+
+- image: gwu-hugging-face-talk.jpg
+  title: George Washington University
+  date:
+  caption: Presenting a case study of Hugging Face and its open-source approach.
+
+- image: badge-summit.jpg
+  title: Badge Summit, University of Colorado Boulder
+  date: Jul 2025
+  caption: Speaking with higher-education leaders about skills and digital credentials.
+
+- image: innovation-fest.jpg
+  title: GW Innovation Fest
+  date: May 2025
+  caption: Presenting LAiSER's skill-extraction research to visitors.
+
+- image: defining-skills-talk.jpg
+  title: LAiSER talk
+  date:
+  caption: Explaining how LAiSER defines and measures skills.
+
+- image: gdg-cloud-session.jpg
+  title: Google Developer Groups
+  date:
+  caption: Teaching Google Cloud fundamentals, including how cloud resources are organized.
+
+- image: mentoring.jpg
+  title: Hands-on session
+  date:
+  caption: Guiding participants through their projects.
+
+- image: devfest-annapolis-attendee.jpg
+  title: DevFest Annapolis
+  date: Nov 2025
+  caption: Continuing the conversation with an attendee after the workshop.
