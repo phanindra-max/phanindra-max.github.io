@@ -104,8 +104,8 @@
       year: Aug 2025 - Dec 2025
       description:
         - "**Autograding**: Built a Python autograding toolkit that reduced grading turnaround from 3 days to 2 hours across 10 assignments, saving 100 TA hours."
-        - "**Course Infrastructure**: Standardized the course environment on AWS EC2 with a CUDA and PyTorch image, using S3 for artifacts, IAM for access, and CloudWatch for monitoring."
-        - "**Course Analytics**: Built instructor dashboards and learner survey tools to track assignment and activity patterns."
+        - "**Student Mentoring**: Mentored students one on one in weekly office hours, using autograder results to address each student's specific gaps."
+        - "**Performance Analysis**: Worked with the instructor to produce class performance statistics at the level of individual questions."
 
     - title: Workshop Instructor, AI and Serverless Deployment on Google Cloud
       institution: DC Startup and Tech Week
