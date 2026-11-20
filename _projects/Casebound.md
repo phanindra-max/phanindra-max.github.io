@@ -8,7 +8,7 @@ category: research
 related_publications: false
 ---
 
-casebound is the reference implementation of _Agent Security Meets Regulatory Reality: A Practitioner Systematization of Autonomous-Agent Threats and Controls in Regulated Financial Systems_, a manuscript submitted to _Software: Practice and Experience_. For an agent running a regulated workflow, it turns the question "was this decision compliant?" into a computable function of the case identifier alone.
+casebound is the reference implementation of _Agent Security Meets Regulatory Reality: A Practitioner Systematization of Autonomous-Agent Threats and Controls in Regulated Financial Systems_, a manuscript submitted to Wiley's _Security and Privacy_ ([preprint](https://arxiv.org/abs/2606.29142)). For an agent running a regulated workflow, it turns the question "was this decision compliant?" into a computable function of the case identifier alone.
 
 ## What It Implements
 

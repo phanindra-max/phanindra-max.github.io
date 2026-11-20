@@ -39,9 +39,9 @@
     - title: "Agent Security Meets Regulatory Reality: A Practitioner Systematization of Autonomous-Agent Threats and Controls in Regulated Financial Systems"
       year: 2026
       description:
-        - "Krishna Mohan Guda Nagavenkata Srinivasa, **Satya Phanindra Kalaga**, and Karthik Guda Vishnu. *Software: Practice and Experience* (Wiley), submitted."
+        - "Krishna Mohan Guda Nagavenkata Srinivasa, **Satya Phanindra Kalaga**, and Karthik Guda Vishnu. *Security and Privacy* (Wiley), submitted."
         - "Contribution: revised the algorithms and several sections, and built the open-source reference implementation."
-        - <a href="https://github.com/vectortc/Agentic-Security-Regulated-Finance">Code artifact</a>
+        - <a href="https://arxiv.org/abs/2606.29142">arXiv preprint</a> and <a href="https://github.com/vectortc/Agentic-Security-Regulated-Finance">code artifact</a>
 
     - title: "LAiSER: A Taxonomy-Aware Framework for Skill Extraction and Research"
       year: Nov 2025
